@@ -1,0 +1,73 @@
+.pdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    max-width: 400px;
+    border:1px solid black;
+    margin: 0 auto;
+
+    
+   
+}
+
+.inc-ex-trac{
+    display: flex;
+    background-color: antiquewhite;
+
+}
+.mony{
+    padding: 0px 40px;
+}
+.list{
+    /* width: 100%; */
+    
+    margin: 5px;
+
+    list-style: none;
+}
+.minus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+ 
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 3px #000;
+}
+.list span{
+    right: 0;
+    margin-left: 120px;
+}
+.list button{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.h3{
+    background-color: rgb(185, 129, 238);
+    padding: 0px 45px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-control input{
+    padding: 5px  5px;
+    margin-top: 5px;
+    width: 270px;
+}
+.btn{
+    background-color: aqua;
+    padding: 3px 30px;
+    width: 285px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
